@@ -1,0 +1,22 @@
+Name: TCPServer
+Version: 0.1.0
+Synopsis: The behavior of TCP server based on ActorProcess
+License: BSD3
+homepage: http://sites.google.com/site/miborishante/Home/tcpserver
+Author: Anton Rudnev
+Maintainer: Anton Rudnev <miborishante@gmail.com>
+Build-Depends:
+    base >= 4.0.0.0,
+    network >= 2.2.0.1,
+    mtl >= 1.1.0.2,
+    containers >= 0.2.0.0,
+    ActorProcess >= 0.1.0
+Exposed-modules:
+    Network.TCPServer
+Build-Type: Simple
+Category: Concurrency, Network
+Stability: experimental
+Description: The behavior of TCP server based on ActorProcess
+Extensions: MultiParamTypeClasses, FunctionalDependencies
+Cabal-Version: >= 1.2.3
+GHC-Options: -threaded
